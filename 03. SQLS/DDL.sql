@@ -274,4 +274,16 @@ GO
 
 
 
-select * from curated.
+
+
+
+select * from curated.fact_bill
+wherE 1=1
+and (ORDER_NUMBER LIKE 'E1000762%' AND INV_LINE = 2)
+and (ORDER_NUMBER LIKE 'E1000869%' AND INV_LINE = 2)
+
+ 
+E1000869	2	029-BR725	E	25HS009556_1
+E1000869	2	029-BR725	E	25HS009556_1
+ 
+ 
